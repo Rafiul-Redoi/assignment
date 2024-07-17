@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* contact */ 
+
+.contact{
+    width: 80%;
+    margin: auto;
+    padding: 15px 0px;
+}
+.contact span{
+    padding: 0px 20px;
+}
+.contact i{
+   padding:0px 5px;
+    color: rgb(60, 222, 195);
+}
+
+/* navigaiton */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 222, 195);
+    
+}   
+.left{
+    margin: 0px 20px;
+    padding: 0px 20px;
+
+}
+.left img{
+    height: 100%;
+    background-color: white;
+    padding: 0px 20px;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 30px;
+   
+}
+.right a{
+     text-decoration: none;
+     color: white;
+     padding: 0px 10px;
+}
+
+
+/* middle */
+
+.middle{
+    padding: 50px ;
+    
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.lf{
+    margin-top: 5%;
+    padding-right:5%;
+}
+.lf span{
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #3CDEC3;
+}
+
+.lf h1{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.lf h2{
+    color: #3CDEC3;
+    padding-bottom: 20px;
+}
+.lf button{
+    padding: 8px 35px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.rt img{
+    width:80%;
+}
+.one{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+/* image */
+.image{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+.image img{
+    width: 100%;
+    
+}
+
+/* ln */
+
+.ln{
+    box-shadow:  7px 4px 8px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+}
+
+
+
+
+
+/* page */
+.page i{
+    background-color: #3CDEC3   ;
+    padding: 15px;
+    color: white;
+    
+}
+.page{
+    background-color: var(--color-white);
+    
+    position: absolute;
+  
+    right: 200px;
+   
+    
+   
+    
+    
+
+}
+/* form */
+.foorm{
+    width: 75%;
+    margin:auto;
+    padding: 50px ;
+    box-shadow: -1px 0px 8px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.foorm span{
+    color: #3CDEC3 ;
+}
+.line{
+    background-color: #3CDEC3;
+    color: #3CDEC3;
+    border: #3CDEC3 1px solid;
+    width: 9%;
+}
+
+
+
+.st1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.all p{
+    padding-top:20px;
+}
+.nd2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.all input{
+    width: 98%;
+    padding: 10px;
+    border: #3CDEC3 2px solid;
+    border-radius: 5px;
+    color: #3CDEC3;
+}
+.phn::-webkit-input-placeholder{
+    color: #3CDEC3;
+}
+.met{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.met select{
+    position: absolute;
+    right: 20px;
+    border: none;
+}
+
+
+
+.foorm button{
+    margin-top: 25px ;
+    padding: 7px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+   
+        .contact{
+            display: flex;
+        }
+
+        .left img{
+            width: 20%;
+            height: 100%;
+            padding: 0px 10;
+        }
+        .left{
+            margin: 0px 0px 0px 5px;
+            padding: 0px ;
+        }
+        .left a{
+            padding: 0px;
+        }
+        .right a{
+            padding:0px;
+           
+        }
+      .middle{
+        display: grid;
+        grid-template-columns: 1fr;
+
+      }
+      
+      .st1{
+        display: grid;
+        grid-template-columns: 1fr ;
+      }
+      .nd2{
+        display: grid;
+        grid-template-columns: 1fr ;
+      }
+
+      .image{
+        position: absolute;
+        left: 50%;
+        top: 92%;
+    }
+    .line{
+        width: 24%;
+    }
+        
+    
+   
+
+     
+    }
+  }
+
